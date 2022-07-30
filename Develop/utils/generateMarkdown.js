@@ -14,7 +14,10 @@ function renderLicenseBadge(license) {
       case "WTFPL":
         return "![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)";
         break;
-      
+        case "IBM":
+          return "![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)";
+          break;
+        
   }
 }
 
