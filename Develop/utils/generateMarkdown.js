@@ -4,6 +4,11 @@ function renderLicenseBadge(license) {
   switch (license) {
     case "MIT":
       return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
+      break;
+    case "Boost":
+      return "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg0;
+      break;
+    
   }
 }
 
