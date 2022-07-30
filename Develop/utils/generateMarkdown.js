@@ -6,9 +6,15 @@ function renderLicenseBadge(license) {
       return "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)";
       break;
     case "Boost":
-      return "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg0;
+      return "![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)";
       break;
-    
+    case "Apache 2.0":
+      return "![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)";
+      break;
+      case "WTFPL":
+        return "![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)";
+        break;
+      
   }
 }
 
