@@ -55,3 +55,7 @@ inquirer.prompt([
     }
     
 ])
+.then((answer) => {
+    fs.writeFile('README.md', generateMarkdown(answer), err => 
+    err ? console.log(err) : console.log("Successful!"));
+});
