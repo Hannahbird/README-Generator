@@ -34,13 +34,28 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   var badge = renderLicenseBadge(license);
   var link = renderLicenseLink(license);
-  return '${badge} ${link}';
+  return `${badge} ${link}`;
 }
 
 // TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-`;
+function generateMarkdown(answer) { 
+  return `
+  ${renderLicenseSection(answer.license)}
+  # Title
+  ${answer.title}
+  ## Description
+  ${answer.description}
+  ## Installation Instructions
+  ${answer.installation}
+  ## Usage
+  ${answer.usage}
+  ## Contributing
+  ${answer.contributing}
+  ## Tests
+  ${answer.tests}
+
+
+  `;
 }
 
 module.exports = generateMarkdown;

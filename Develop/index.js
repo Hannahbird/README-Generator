@@ -11,3 +11,7 @@ function init() {}
 
 // Function call to initialize app
 init();
+
+const inquirer = require("inquirer");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
