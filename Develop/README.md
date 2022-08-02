@@ -1,17 +1,17 @@
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
   # Title
-  test
+  README Generator
   ## Description
-  This is a test
+  Generates README from command line
   ## Installation Instructions
-  no
+  n/a
   ## Usage
   n/a
   ## Contributing
-  me, myself, and I
+  Me
   ## Tests
-  this one
+  3
 
 
   
